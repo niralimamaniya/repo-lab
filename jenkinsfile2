@@ -19,7 +19,7 @@ agent any
      archiveArtifacts artifacts: 'output/*.txt', excludes: 'output/*.md'
      }
    }
-  stage('Archive build output') {
+  stage('input') {
     steps {
     // Archive the build output artifacts.
 input 'just an input'
